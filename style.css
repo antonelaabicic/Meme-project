@@ -1,0 +1,21 @@
+h1{
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase; /*text-transform CSS specifies how to capitalize text (uppercase, lowercase, each word capitalized)*/
+}
+
+body{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.make-div-pretty{
+    width: 50%; /*Puts the width of the div to 50% of page*/
+    margin-left: 25%; /*Moves div for 25% of page to the left*/
+    margin-top: 100px;
+}
+.make-picture-pretty{
+    border: 5px solid white;
+    width: 100%; /*Fills the entire space of it's parent container*/
+    max-width: 100%; /*To ensure images don't exceed their original size*/
+}
